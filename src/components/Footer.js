@@ -5,8 +5,8 @@ import Nav from "./Nav";
 export default function Footer() {
     return (
         <>
-        <div class="empty-space"></div>
-        <div class="bar">
+        <div className="empty-space"></div>
+        <div className="bar">
           <Nav />
         </div>
         </>

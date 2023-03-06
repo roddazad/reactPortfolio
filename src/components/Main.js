@@ -1,12 +1,17 @@
 import React from 'react';
-import myImage from '../images/me.jpg'
+import MyImage from './MyImage';
+import Proj1 from './Proj1';
+import Proj2 from './Proj2';
+import Proj3 from './Proj3';
+
+
 
 export default function Main() {
     return (
-        <div class="container">
-        <div class="img-box border">
+        <div className="container">
+        <div className="img-box border">
           <div>
-            <img src={myImage} alt="A man with a cowboy hat" />
+            <MyImage />
           </div>
           <div>
             <h2>Hi everyone, my name is Rodd Azad!</h2>
@@ -17,15 +22,9 @@ export default function Main() {
           </div>
         </div>
 
-        <div class="box border project1">
-          <a href="https://vanwykkim.github.io/movie-lookup/"><p>PROJECT 1</p></a>
-        </div>
-        <div class="box border project2">
-          <a href="https://plantparenthood.herokuapp.com/"><p>PROJECT 2</p></a>
-        </div>
-        <div class="box border project3">
-          <a href="#"><p>PROJECT 3</p></a>
-        </div>
+        <Proj1 />
+        <Proj2 />
+        <Proj3 />
       </div>
     );
 }

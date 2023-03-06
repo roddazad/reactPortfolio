@@ -122,6 +122,14 @@ li a:focus{
     background-image: url("../images/project3.jpg");
     background-size:cover;
 } 
+#project2Box {
+    font-size:auto; 
+    color:rgb(9, 58, 58);
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size:larger;
+
+}
 
 @media screen and (max-width: 680px) {
     .bar{

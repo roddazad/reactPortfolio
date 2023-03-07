@@ -1,7 +1,7 @@
 import React from 'react'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
-import AboutBody from '../components/AboutBody'
+import Nav from '../../components/Nav'
+import Footer from '../../components/Footer'
+import AboutBody from '../../components/AboutBody'
 
 export default function About() {
   return (

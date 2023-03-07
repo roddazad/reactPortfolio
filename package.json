@@ -1,6 +1,6 @@
 {
   "homepage": "https://roddazad.github.io/reactPortfolio",
-  "name": "my-app",
+  "name": "reactPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

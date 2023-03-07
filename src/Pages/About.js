@@ -11,6 +11,7 @@ export default function About() {
       <Nav />
     </div>
     <div className="project-box-about">
+        
         <AboutBody />
     
     </div>

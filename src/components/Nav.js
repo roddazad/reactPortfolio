@@ -7,6 +7,7 @@ export default function Nav() {
             <li><a href="./">Home</a></li>
             <li><a href="./about">About Me</a></li>
             <li><a href="mailto:roddazad@gmail.com">Email Me </a></li>
+            <li><a href="https://github.com/roddazad">My Github Page</a></li>
             <li>
               <a href="https://vanwykkim.github.io/movie-lookup/">Project 1</a>
             </li>
